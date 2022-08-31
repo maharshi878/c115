@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+  background: rgb(238,174,202);
+  background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+  text-align:center;
+  font-family:Poppins;
+}
+h3{
+  font-size 35px !important;
+}
+.btn-success:hover{
+  background-color: black;
+}
+canvas {
+  animation-name: lol;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes lol {
+  from {box-shadow:1px 1px 38px red};
+  to {box-shadow:1px 1px 38px yellow};
+}
